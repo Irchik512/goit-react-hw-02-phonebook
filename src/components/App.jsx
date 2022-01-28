@@ -37,6 +37,7 @@ export class App extends Component {
       filter: evt.currentTarget.value,
     });
   };
+
   delButtonClickHandle = contactId =>
     this.setState(prevState => ({
       contacts: prevState.contacts.filter(
